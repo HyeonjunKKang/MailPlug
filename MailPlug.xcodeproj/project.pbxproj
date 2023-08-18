@@ -291,6 +291,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		FA2FB2A02A8F8D8D007EEA28 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FA884D482A8A27CB0046DC27 /* TargetType.swift */,
+				FA884D4D2A8A309F0046DC27 /* Provider.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		FA884D3C2A8A215F0046DC27 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,21 +337,11 @@
 			isa = PBXGroup;
 			children = (
 				FA0389E12A8E42C000707F31 /* CoreDataService */,
-				FA884D472A8A278D0046DC27 /* NetworkService */,
 				FA884D4F2A8A34CB0046DC27 /* DataMapping */,
 				FA884D4A2A8A2BFF0046DC27 /* DataSource */,
 				FA884D622A8A393D0046DC27 /* Repository */,
 			);
 			path = Data;
-			sourceTree = "<group>";
-		};
-		FA884D472A8A278D0046DC27 /* NetworkService */ = {
-			isa = PBXGroup;
-			children = (
-				FA884D482A8A27CB0046DC27 /* TargetType.swift */,
-				FA884D4D2A8A309F0046DC27 /* Provider.swift */,
-			);
-			path = NetworkService;
 			sourceTree = "<group>";
 		};
 		FA884D4A2A8A2BFF0046DC27 /* DataSource */ = {
@@ -519,6 +518,7 @@
 		FAA63AEC2A8A0386001BAB5A /* MailPlug */ = {
 			isa = PBXGroup;
 			children = (
+				FA2FB2A02A8F8D8D007EEA28 /* Network */,
 				FAA63B1B2A8A09BA001BAB5A /* Resource */,
 				FAA63B122A8A0544001BAB5A /* App */,
 				FA884D462A8A27800046DC27 /* Data */,
