@@ -27,10 +27,10 @@ final class SearchResultViewModel: ViewModel {
     
     var disposeBag = DisposeBag()
     
+    var navigation = PublishSubject<SearchResultNavigation>()
     private let posts = BehaviorSubject<[Post]>(value: [])
     var board = BehaviorSubject<Board>(value: Board.tempBoard())
     var search = BehaviorSubject<Search>(value: Search(category: .all, word: "", date: Date()))
-    var navigation = PublishSubject<SearchResultNavigation>()
     
     var searchResultUseCase: SearchResultUseCaseProtocol?
     

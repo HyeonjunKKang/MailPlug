@@ -26,10 +26,7 @@ extension TargetType {
         
         let url = try (baseURL + path).addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!.asURL()
         var urlRequest = try URLRequest(url: url, method: method)
-//        let url = try baseURL.asURL()
-//
-//        // appendingPathComponent 사용 시 path 내 ?를 %3f로 인식하여 임시 처리
-//        var urlRequest = try URLRequest(url: url.absoluteString + path, method: method)
+        
         urlRequest.headers = header
         
         switch parameters {
