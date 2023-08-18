@@ -59,3 +59,11 @@
 ### 검색 화면
 - 요구사항을 모두 구현하였습니다.
 - 검색내역 삭제 기능을 구현하였습니다.
+
+## 사용 라이브러리
+- RxSwift
+- RxDataSource
+- Swinject
+- Alamofire
+- Then
+- SnapKit
